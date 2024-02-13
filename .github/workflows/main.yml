@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout out the repo
-        uses: action/checkout@v3
+        uses: action/checkout@v2
         with:
           repository: sunnysavita10/deeplearningupdatedwithstreamlit
           ref: main
